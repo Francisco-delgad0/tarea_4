@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <link rel="stylesheet" href="C:\Users\flaco\OneDrive\Escritorio\clases diseño sofwear\tarea 4\css\style.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio Personal</h1>
+    </header>
+    <div class="container">
+        <section id="galeria">
+            <h2>Galería de Fotos</h2>
+            <div class="fila-imagenes">
+                <div class="imagen">
+                    <img src="C:\Users\flaco\OneDrive\Escritorio\clases diseño sofwear\tarea 4\fotos\imganeping.jpg" alt="Interés 1">
+                </div>
+                <div class="imagen">
+                    <img src="C:\Users\flaco\OneDrive\Escritorio\clases diseño sofwear\tarea 4\fotos\viedojue.jpg" alt="Interés 2">
+                </div>
+                <div class="imagen">
+                    <img src="C:\Users\flaco\OneDrive\Escritorio\clases diseño sofwear\tarea 4\fotos\pelis.jpg" alt="Interés 3">
+                </div>
+            </div>
+            <div class="fila-imagenes">
+                <div class="imagen">
+                    <img src="C:\Users\flaco\OneDrive\Escritorio\clases diseño sofwear\tarea 4\fotos\mesa.jpg" alt="Interés 4">
+                </div>
+                <div class="imagen">
+                    <img src="C:\Users\flaco\OneDrive\Escritorio\clases diseño sofwear\tarea 4\fotos\lol.jpg" alt="Interés 5">
+                </div>
+                <div class="imagen">
+                    <img src="C:\Users\flaco\OneDrive\Escritorio\clases diseño sofwear\tarea 4\fotos\cien.jpg" alt="Interés 6">  
+                </div>
+            </div>
+        </section>
+        <section id="seccion">
+            <h2>Mis pasatiempos</h2>
+            <section>
+                <h1>Ping-pong</h1>
+                <p>El ping-pong es mi pasatiempo preferido. Disfruto de cada partida, 
+                ya que me brinda diversión, desafío y la oportunidad de compartir 
+                momentos agradables con amigos y familia. Este deporte me motiva 
+                a mejorar mis habilidades, y aprecio la emoción que genera en cada 
+                juego. En resumen, el ping-pong es una parte importante de mi vida 
+                y una forma estupenda de pasar el tiempo.</p>
+            </section>
+
+            <section>
+                <h1>Video juegos</h1>
+                <p>
+                    Los videojuegos son uno de mis pasatiempos preferidos. Cada vez que juego, 
+                    disfruto de experiencias virtuales emocionantes y desafiantes. 
+                    Puedo elegir entre una variedad de géneros, y además de la 
+                    diversión, los videojuegos me han permitido conocer a otros 
+                    jugadores y hacer amigos en línea. Son una parte importante de 
+                    mi vida que valoro mucho.</p>
+            </section>
+
+            <section>
+                <h1>Peliculas</h1>
+                <p>Ver películas es mi pasatiempo favorito. Disfruto de la variedad de géneros 
+                    y la capacidad de desconectar y relajarme. Ya sea en solitario o con amigos, 
+                    ver películas es una forma de entretenimiento que valoro mucho.</p>
+            </section>
+        </section>
+        </section>
+        <section id="calculadora">
+            <h2>Calculadora de diferencia de edades</h2>
+            <label for="fecha-nacimiento">Fecha de Nacimiento: </label>
+            <input type="date" id="fecha-nacimiento">
+            <button id="calcular-edad">Calcular Diferencia de Edad</button>
+            <p id="resultado-edad"></p>
+        </section>
+        <section id="formulario-contacto">
+            <h2>Formulario de Contacto</h2>
+            <form id="formulario-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" required>
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+            <p id="mensaje-enviado"></p>
+        </section>
+    </div>
+    <div id="zoom-background">
+        <div id="close-zoom">×</div>
+        <img id="zoomed-image">
+    </div>
+    <script src="C:\Users\flaco\OneDrive\Escritorio\clases diseño sofwear\tarea 4\JS\code.js"></script>
+</body>
+<footer>
+    <p id="final">Gracias por ver mi portafolio</p>
+</footer>
+</html>
